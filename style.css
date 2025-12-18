@@ -145,22 +145,18 @@ height:50px
 
 .shop-section {
      background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/uber_new_high._CB537689643_.jpg") ;
-    /* background-image: linear-gradient(to right, #b90e38, #d84557);  */
-    /* height: 50%; */
-    /* display: flex; */
+    
     background-repeat:no-repeat;
     background-size: contain;
-    /* justify-content: center;
-    align-items: flex-end; */
+   
     display: grid;
-    /* This creates 4 equal columns */
+  
     grid-template-columns: repeat(4, 1fr); 
 grid-template-rows:680px 420px 300px;
     gap: 20px ;
     padding:20px;
     background-color:rgb(225, 222, 222);
-     /* Pulls the grid up over the hero section like Amazon */
-    /* z-index: 100; */
+     
 }
 
 .top{
@@ -171,8 +167,8 @@ grid-template-rows:680px 420px 300px;
   
     background-color: white;
     padding: 20px 0px 15px 20px;
-    height: 420px; /* Fixed height for uniformity */
-    /* z-index: 10; */
+    height: 420px;
+  
 }
 
 .box-content {
@@ -189,7 +185,7 @@ grid-template-rows:680px 420px 300px;
     margin-bottom: 10px;
 }
 
-/* NESTED GRID (The 2x2 grid inside cards) */
+
 .box-img-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
